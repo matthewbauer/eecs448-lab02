@@ -22,6 +22,9 @@ Test_LinkedList.o: Test_LinkedList.h Test_LinkedList.cpp Test.h
 Test.o: Test.h Test.cpp
 	g++ -g -Wall -std=c++11 -c Test.cpp	
 
+test: prog
+	./prog
+
 #force returning true to prevent the default make from 
 #	haulting when .o files aren't present
 clean:

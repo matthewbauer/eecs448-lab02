@@ -29,7 +29,6 @@ bool LinkedList<T>::isEmpty() const
 template <typename T>
 int LinkedList<T>::size() const
 {
-	Node<T>* temp = m_front;
 	return(m_size);
 }
 

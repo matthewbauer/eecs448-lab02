@@ -1,6 +1,6 @@
 /**
-*	@author 
-*	@date 
+*	@author Matthew Bauer
+*	@date 2016-09-02
 *	@file LinkedList.hpp
 *	@brief Implementation file for templated LinkedList class
 */
